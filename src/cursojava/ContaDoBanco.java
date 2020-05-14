@@ -10,7 +10,8 @@ public class ContaDoBanco {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner leia = new Scanner(System.in);
-
+		
+		System.out.println(" ");
 		System.out.print("Digite o número da conta: ");
 		int numConta = leia.nextInt();
 		System.out.print("Digite o titular da conta: ");
